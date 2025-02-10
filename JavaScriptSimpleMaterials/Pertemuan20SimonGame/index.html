@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Simon</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <div class="simon-game">
+        <div id="green" class="btn green" onclick="handleUserClick('green')"></div>
+        <div id="red" class="btn red" onclick="handleUserClick('red')"></div>
+        <div id="yellow" class="btn yellow" onclick="handleUserClick('yellow')"></div>
+        <div id="blue" class="btn blue" onclick="handleUserClick('blue')"></div>
+        <button onclick="startGame()">Start Game</button>
+        <h3 id="status">Click "Start Game" to begin!</h3>
+    </div>
+    <script src="script.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>

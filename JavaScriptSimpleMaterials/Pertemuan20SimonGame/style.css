@@ -1,0 +1,26 @@
+.simon-game {
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color:cornflowerblue
+}
+
+.btn {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.green { background-color: green; }
+.red { background-color: red; }
+.yellow { background-color: yellow; }
+.blue { background-color: blue; }
+
+.flash {
+    opacity: 1;
+    transition: opacity 0.3s;
+}
